@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\bin\Debug\ParseLogFile.exe.config
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\bin\Debug\ParseLogFile.exe
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\bin\Debug\ParseLogFile.pdb
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\obj\Debug\ParseLogFile.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\obj\Debug\ParseLogFile.exe
+c:\users\nick\documents\visual studio 2013\Projects\ParseLogFile\ParseLogFile\obj\Debug\ParseLogFile.pdb
