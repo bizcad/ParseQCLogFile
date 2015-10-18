@@ -1,5 +1,6 @@
 # ParseQCLogFile
-Parses into csv a QuantConnect log.txt which is output automatically by the Open Source version of the QuantConnect Lean Engine.
+Parses into csv a QuantConnect log.txt which is output automatically by the Open Source version of the <a href="https://github.com/QuantConnect/Lean>QuantConnect Lean Engine</a>.
+
 
 Usage: 
 	ParseLogFile {filepath}
