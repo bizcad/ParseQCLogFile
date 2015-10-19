@@ -8,6 +8,8 @@ namespace ParseLogFile
     {
         public void Write(string filepath, List<RunStats> statsList )
         {
+            Comparison<RunStats> compEPV = new Comparison<RunStats>(RunStats.CompareEndingPortfolioValue);
+            statsList.Sort(compEPV);
             string path = filepath.Replace(".txt", ".csv");
             var stringlist = CsvSerializer.Serialize(",", statsList);
             using (var sw = new StreamWriter(path))

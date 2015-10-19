@@ -27,6 +27,15 @@ namespace ParseLogFile
         public decimal InformationRatio { get; set; }
         public decimal TrackingError { get; set; }
         public decimal TreynorRatio { get; set; }
-        public decimal TotalFees { get; set; }        
+        public decimal TotalFees { get; set; }
+
+        public static int CompareCompoundingAnnualReturn(RunStats r1, RunStats r2)
+        {
+            return r1.CompoundingAnnualReturn.CompareTo(r2.CompoundingAnnualReturn) * -1;
+        }
+        public static int CompareEndingPortfolioValue(RunStats r1, RunStats r2)
+        {
+            return r1.EndingPortfolioValue.CompareTo(r2.EndingPortfolioValue) * -1;
+        }
     }
 }
