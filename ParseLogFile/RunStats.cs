@@ -4,6 +4,8 @@ namespace ParseLogFile
 {
     public class RunStats
     {
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
         public DateTime Start { get; set; }
         public DateTime Stop { get; set; }
         public string AlgorithmName { get; set; }

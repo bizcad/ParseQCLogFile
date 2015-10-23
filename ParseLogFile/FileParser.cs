@@ -21,7 +21,14 @@ namespace ParseLogFile
                 while (!sr.EndOfStream)
                 {
                     string line = sr.ReadLine();
-
+                    if (line.Contains("Start Time: "))
+                    {
+                        runstats.StartTime = System.Convert.ToDateTime(line.Substring(line.IndexOf(@":", StringComparison.Ordinal) + 1).Trim());
+                    }
+                    if (line.Contains("End Time: "))
+                    {
+                        runstats.EndTime = System.Convert.ToDateTime(line.Substring(line.IndexOf(@":", StringComparison.Ordinal) + 1).Trim());
+                    }
                     if (line.Contains("Begin DataStream"))
                     {
                         GetStartStop(line, runstats);
